@@ -28,6 +28,6 @@ app.get("/run-script", (req, res) => {
   });
 });
 
-const server = app.listen(4002, () => {
-  console.log("Server berjalan pada port 4002");
+const server = app.listen(4001, () => {
+  console.log("Server berjalan pada port 4001");
 });
