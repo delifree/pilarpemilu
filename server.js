@@ -10,7 +10,7 @@ app.use(function (req, res, next) {
     next();
   });
 
-app.use(express.static("bot"));
+app.use(express.static("pilarpemilu"));
 
 // Endpoint untuk menjalankan skrip
 app.get("/run-script", (req, res) => {
